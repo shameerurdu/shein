@@ -152,6 +152,8 @@
       </div>
     </div>
   </div>
+  <div class="toscrolll"></div>
+	
 </section>
 
 
@@ -204,7 +206,7 @@
 </footer>
 
 
-<script type="text/javascript" src="js/jquery.scrollify.js"></script>
+<script type="text/javascript" src="https://projects.lukehaas.me/scrollify/script/jquery.scrollify.js"></script>
 <script type="text/javascript">
 	const imgContent = document.querySelectorAll('.img-content-hover');
 
@@ -221,16 +223,21 @@ document.addEventListener('mousemove', showImgContent);
 
 <script>
 $(function() {
-	$(".post-stop").css({"height":$(window).height()});
-	$.scrollify({
-		section:".post-stop"
-	});
+  $.scrollify({
+    section: ".post-stop",
+    //sectionName:false,
+    scrollSpeed: 1100,
+    after: function(i) {
+      /*
+      if(i===2) {
+        $.scrollify.setOptions({
+          easing:"easeOutExpo"
+        });
+      }*/
+    }
+  });
 
 
-	$(".scroll").click(function(e) {
-		e.preventDefault();
-		$.scrollify("move",$(this).attr("href"));
-	});
 });
 </script>
 
