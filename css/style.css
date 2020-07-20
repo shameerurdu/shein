@@ -288,8 +288,11 @@ ul.nav a{
   height: 60px;
 
 }
+.post-area .col-md-6 {
+    padding-left: 20px;
+}
 .project-header{
-  height: 60vh!important;
+  height: 40vh!important;
 }
 .project-title img{
   height:60px!important;
