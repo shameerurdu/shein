@@ -283,7 +283,9 @@ ul.nav a{
 
 }
 
-
+.post-area .col-md-6 {
+    padding-left: 10px;
+}
 .blog-header img{
   height: 60px;
 
