@@ -282,9 +282,12 @@ ul.nav a{
   width: 90%;
 
 }
-
+.post-details .description{
+    padding:10px;
+    }
+    
 .post-area .col-md-6 {
-    padding-left: 10px;
+    padding-left: 10px!important;
 }
 .blog-header img{
   height: 60px;
