@@ -275,6 +275,9 @@ ul.nav a{
   font-family: Karla-Regular;
   margin: 0 auto;
 }
+.description{
+  padding: 10px;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px)  {
@@ -282,28 +285,36 @@ ul.nav a{
   width: 90%;
 
 }
-.description{
-    padding:10px;
-    }
-    
 .post-area .col-md-6 {
-    padding-left: 10px!important;
+    padding-left: 20px;
 }
+.description{
+  padding: 20px;
+}
+
 .blog-header img{
   height: 60px;
 
 }
-.post-area .col-md-6 {
-    padding-left: 20px;
-}
 .project-header{
-  height: 40vh!important;
+  height: 30vh!important;
 }
 .project-title img{
-  height:60px!important;
+  height:40px!important;
 
 }
+.get-in-touch .title {
 
+    padding-left: 6px!important;
+}
+.copyright{
+  text-align: center!important;
+  padding-left: 0!important;
+}
+.social{
+  text-align: center!important;
+  padding-right: 0!important;
+}
 .nav li{
   font-size: 40px;
   padding-bottom: 10px;
