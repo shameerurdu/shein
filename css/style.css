@@ -293,14 +293,14 @@ ul.nav a{
 }
 
 .blog-header img{
-  height: 60px;
+  height: 100px;
 
 }
 .project-header{
   height: 30vh!important;
 }
 .project-title img{
-  height:40px!important;
+  height:60px!important;
 
 }
 .get-in-touch .title {
@@ -1208,7 +1208,9 @@ footer .col-md-6{
 .gallery {
   padding: 0 0 4rem 0;
 }
-
+.toscrolll{
+  height: 50px;
+}
 .img-container {
   width: 100%;
   height: 500px;
